@@ -14,8 +14,7 @@ describe('deepEqual', () => {
     expect(deepEqual(obj, nextObj)).toStrictEqual(true);
   });
 });
-
-describe('deepCopy', () => {
++describe('deepCopy', () => {
   it('should return correct object', () => {
     const obj = { prop: 'bohdan', obj: { arr: [1, 2, 3] } };
     const deepObj = deepCopy(obj);
